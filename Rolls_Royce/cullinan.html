@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="img/logo.png">
+    <meta charset="UTF-8">
+    <title>库里南</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+
+        a{
+            text-decoration: none;
+
+        }
+        header{
+            height:75px;
+            background: rgba(255,255,255,0.9);
+            /*border: 2px solid red;*/
+            line-height: 75px;
+        }
+        header img{
+            width: 50px;
+            height: 75px;
+            position: absolute;
+            left:50%;
+            top:25px;
+        }
+        #banner {
+            /*width: 1538px;*/
+            height:680px;
+            /*border: 2px solid red;*/
+            background: url("img/first.png") no-repeat;
+            background-size: cover;
+        }
+        #text-title{
+            font-size: 50px;
+            position: relative;
+            left:48px;
+            top:150px;
+        }
+        li{
+            width: 150px;
+            height: 50px;
+            list-style: none;
+            float:left ;
+            text-align: center;
+            line-height:45px;
+        }
+        #nav{
+            display: block;
+            height: 50px;
+        }
+        .text-inner{
+             height: 250px;
+            font-size: 20px;
+            text-align: center;
+
+           line-height: 250px;/*行高*/
+            background: rgba(156,156,156,0.9);
+            display: block;
+        }
+        .div1{
+            background: rgba(255,255,255,0.7);
+            text-align: center;
+            line-height: 100px;
+            height: 260px;
+        }
+        .show{
+            height: 650px;
+            border:2px solid red;
+            background: url("img/1.1.jpg") no-repeat;
+            background-size: 100% 100%;
+        }
+        img{
+            max-height: 100%;
+            max-width: 100%;
+        }
+        text{
+            font-size: 20px;
+        }
+        .first{
+            height:600px;
+            text-align: center;
+            line-height: 200px;
+        }
+        .one{
+            margin: 0px;
+        }
+        .first-1{
+             margin: -5px;
+        }
+        .second{
+            /*margin: 0 auto;*/
+            margin:0 207px;
+            text-align: center;
+            position: relative;
+        }
+        .second2{
+             margin-left: 270px;
+
+         }
+        .second2:hover {
+            transform: scale(1.2);
+            overflow: hidden;
+        }
+        .zz{
+            width: 1100px;
+            height:310px;
+            background: rgba(0,0,0,0.3);
+            position: absolute;
+            left:0;
+            top:0;
+            display: none;
+        }
+        .second:hover .zz{
+            display: block;
+        }
+       .small{
+           float: left;
+           margin: 0 90px;
+
+       }
+       .text-left{
+           float:left;
+       }
+       .small1{
+           float: right;
+           margin: 0 70px;
+       }
+        .clear{
+            clear: both;
+        }
+        .second:hover.zz{
+            display: block;
+        }
+        h3{
+            text-align: center;
+
+            margin: 50px 10px;
+        }
+        .p1{
+            text-align: center;
+            margin-top: 50px;
+            font-size: 20px;
+        }
+        .last{
+            margin: -5px;
+        }
+        #foot{
+            font-size: 10px;
+            text-align: center;
+            height:60px;
+            line-height: 60px;
+        }
+        .tt{
+            font-size: 40px;
+            color:rgb(251,251,251);
+            margin-left: 400px;
+            text-align:center;
+            line-height:700px ;
+            animation: ani 3s;
+        }
+        .tt2{
+            color:white;
+            margin-left: 200px;
+            line-height:400px ;
+        }
+        .tt3{
+            color:white;
+            margin-left: 200px;
+            line-height:440px ;
+        }
+        .tt4{
+            color:white;
+            margin-left: 1000px;
+            line-height:600px ;
+        }
+        .tt5{
+            color:white;
+            margin-left: 100px;
+            line-height:460px ;
+        }
+        .dd{
+            background: url("img/4.1.jpg");
+            background-size: cover;
+            height: 900px;
+
+        }
+        .dd1{
+            background: url("img/4.2.jpg");
+            background-size: cover;
+            height:1300px;
+
+        }
+        .dd2{
+            background: url("img/4.3.jpg");
+            background-size: cover;
+            height: 900px;
+
+        }
+        .dd3{
+            background: url("img/4.4.jpg");
+            background-size: cover;
+            height: 900px;
+
+        }
+        .dd4{
+            background: url("img/4.5.jpg");
+            background-size: cover;
+            height: 900px;
+
+        }
+        @keyframes ani {
+            0%{
+                color:rgb(34,54,230);
+            }
+            50%{color: rgb(230, 41, 41);}
+            100%{
+            color:rgb(251,251,251);
+         }
+        }
+        #video{
+            text-align: center;
+        }
+       a:visited{
+           color:black;
+       }
+        a:link{
+            color:black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        车型
+        <img src="img/logo.png" >
+    </header>
+    <div id="banner">
+        <font id="text-title"> 悠 然 天 地 间<br>劳 斯 莱 斯 库 里 南</font>
+    </div>
+    <main>
+        <div id="nav">
+            <ul>
+                <a href="#m" ><li>游刃万仞</li></a>
+                <a href="#n"><li>奢华臻境</li></a>
+                <a href="#i"><li>前瞻科技</li></a>
+                <a href="#j"><li>传奇典范</li></a>
+            </ul>
+        </div>
+        <div class="text-inner">
+            <p>传奇杰作，奢华臻境。寰宇无暇的工艺，畅游万境的全地形能力，驭世气度恢弘而立。
+                劳斯莱斯库里南，悠然天地间。</p>
+        </div>
+        <div class="first">
+            <h1> 一生天地，万重境界</h1>
+            绽放无限可能，以无畏探索为辉煌的人生加冕。追求生活新境，库里南为缔造传奇者而生。
+        </div>
+        <div>
+            <video width="100%" id="video"src="img/1.mp4" controls autoplay loop></video>
+        </div>
+        <div class="one">
+            <img src="img/3.jpg" >
+        </div>
+        <div class="first-1">
+            <img src="img/2.jpg" width="100%">
+        </div>
+        <div class="second" >
+                <img  src="img/2.1.jpg" width="550px" height="310px">
+                <img class="img1" src="img/2.2.jpg"  width="550px">
+                <img src="img/2.3.jpg" width="1108px" >
+                <div class="zz">
+                <div class="zz1">
+            </div>
+
+        </div>
+        <div class="div1" >
+                <h1 ><a name="m">游 刃 万 仞</a></h1>
+           <text>千山万仞，如履平地，从容统御一切挑战。万千险阻，库里南以出色的全地形能力，无往不胜，旅途所至皆为坦途。</text>
+
+        </div>
+         <div>
+             <img src="img/3.1.jpg">
+             <div class="div1" >
+             <h1 ><a name="m">未知之境，游刃无阻</a></h1>
+             <text>创新细节，让每一次旅程焕然新生。秉承劳斯莱斯品牌之精髓，奢华体验愈加极致。精湛技艺，突破想象。劳斯莱斯库里南，开辟奢享新境界。</text>
+             </div>
+         </div>
+             <img src="img/3.2.jpg" >
+         </div>
+        <div class="div1">
+            <h1 ><a name="n">奢 华 臻 境</a></h1>
+            <text>险峻征程，闲庭信步。凌越众生之巅，徜徉奢美之境。</text>
+        </div>
+        <div>
+            <img class="small"src="img/5.2.jpg" width="550px">
+             <h3>独享式座椅</h3>
+            <p class="p1"> 可以任意调节座椅角度的后排独立座椅，让宾客沉浸于身心舒适的享受之中，贴心备至。
+                <br>两个独立座椅之间设有后排中央固定扶手，可轻松收纳劳斯莱斯威士忌酒具、香槟及水晶杯，令您与宾客随时随地沉醉于美酒相伴的缱绻时光。</p>
+         <div class="clear"></div>
+            <div class="text-left" width="200px">
+                <h3>全地形按钮</h3>
+                <p class="p1">指尖一键切换，疆域纵横无阻。<br>强大的全轮驱动系统，提供充沛的扭矩输出，<br>游刃有余的全地形能力，从容驾驭干燥、湿滑、雪地或结冰地面。
+                    <br>悬架可智能调升 40 毫米，制动和加速灵敏响应，操控与舒适随心兼得，<br>自由驰骋每一寸疆土。</p>
+            </div>
+            <img  class="small1" src="img/5.1.jpg" width="550px">
+            <text></text>
+            <div class="clear"></div>
+        </div>
+        <div class="div1">
+            <h1 ><a name="i">前 瞻 科 技</a></h1>
+            <text>奢享繁华都市，凌越辽阔郊野，驭世从容，万境悠然。</text>
+        </div>
+        <div  >
+            <img class="second2" src="img/6.1.png" width="1000px">
+            <img  src="img/5.4.jpg" >
+            <img  src="img/5.5.jpg" >
+            <div class="clear"></div>
+        </div>
+        <div class="div1">
+            <h1 ><a name="j">传 奇 典 范</a></h1>
+            <text>以标志性设计承袭尊贵荣光，以傲世奢华彰显非凡气度。库里南，翛然天地，璀璨如一。</text>
+        </div>
+        <div class="dd">
+
+        </div>
+        <div class="dd1"><text class="tt">传奇杰作</text></div>
+        <div class="dd2">
+            <p class="tt2">精益杰作，缔造伟大，以磅礴气势开辟全新纪元。</p>
+           <p class="tt3" >劳斯莱斯是无尽想象的璀璨化身，库里南是锐意创新的勇敢宣言。</p>
+            <p class="tt4">奢华无界之旅，由此开启</p>
+        </div>
+        <div class="dd3"></div>
+        <div class="dd4">
+            <p class="tt5">缔造不朽传奇，以渴望与专注付诸于行，一切皆有可能。</p>
+        </div>
+    </main>
+    <footer>
+        <p id="foot"> 晋ICP备20190621号</p>
+    </footer>
+</body>
+</html>
